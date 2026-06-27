@@ -1,5 +1,5 @@
-from src.llm_manager import create_stateful_bot
-from src.summary_manager import create_summary_bot, summarize_chat_history, get_session_history
+from llm_manager import create_stateful_bot
+from summary_manager import create_summary_bot, summarize_chat_history, get_session_history
 
 def run_chatbot():
     print("🤖 Stateful Chatbot with Summary Memory Initialized!")

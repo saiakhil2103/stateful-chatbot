@@ -49,3 +49,5 @@ python run_app.py
 ```
 
 The application will automatically spin up a local server and open the chatbot interface in your default web browser!
+
+Deployed application link: https://jcf6cvrxkesxywnz7kbar4.streamlit.app/

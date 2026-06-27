@@ -3,7 +3,7 @@ from langchain_core.chat_history import InMemoryChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import SystemMessage, HumanMessage
-from src.config import GROQ_API_KEY 
+from config import GROQ_API_KEY 
 
 sessions_db = {}
 

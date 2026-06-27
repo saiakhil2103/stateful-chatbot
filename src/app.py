@@ -1,5 +1,5 @@
 import streamlit as st 
-from src.summary_manager import create_summary_bot, summarize_chat_history, get_session_history
+from summary_manager import create_summary_bot, summarize_chat_history, get_session_history
 
 st.set_page_config(page_title="Stateful Chatbot", page_icon="🤖")
 st.title("🤖 Stateful Chatbot with Summary Memory")
